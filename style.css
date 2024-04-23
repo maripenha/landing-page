@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.menu-navegacao{
+    height: 65px;
+    font-family: 'Inter';
+    font-size: 24;
+}
+
+.menu-navegacao>ul{
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.menu-navegacao li{
+    text-decoration: none;
+    padding: 8px;
+    align-items: center;
+    display: inline-flex;
+    width: 900px;
+}
+.menu-navegacao li:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 6rem;
+}
+.menu-navegacao li:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 6rem;
+    width: 100%;
+}
+
+.sec1 h1{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    margin-left: 130px;
+    padding-top: 85px;
+}
+
+.sec1 p{
+    font-family: 'Inter';
+    font-size: 22px;
+}
