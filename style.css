@@ -5,49 +5,67 @@
     height: 65px;
     font-family: 'Inter';
     font-size: 24;
+    
 }
 
 .menu-navegacao>ul{
     height: 30px;
     display: flex;
-    margin-inline-start: 120px;
+    margin-top: 30px;
+    margin-right: 120px;
+    margin-left: 120px;
+    
 }
 
 .menu-navegacao li{
-    text-decoration: none;
-    padding: 8px;
     align-items: center;
     display: inline-flex;
     width: 900px;
+    justify-content: center;
 }
 
-.menu-navegacao li:last-child{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 0 6rem;
-    margin-right: 120px;
-    width: 80%;
+
+.menu-navegacao li>a{
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    
 }
+.button1{
+    border-width: 1.5px;
+    background-color:#FBFBFB ;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-size: 1rem;
+    width: 100px;
+    height: 30px;
+}
+
 
 .sec1{
     display: flex;
     width: 40%;
     flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .sec1 h1{
     font-family: 'Montserrat';
     font-size: 2rem;
+    margin-top: 10px;
 }
 
 .sec1 p{
+    height: 10%;
     font-family: 'Inter';
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  
 }
 
 .div1{
     height: 100%;
+    margin-top: 25px;
 }
 
 .div1>img{
@@ -60,4 +78,57 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
+}
+
+.button2{
+    background-color: #DA2535;
+    font-family: 'Inter';
+    font-size: 1rem;
+    color:#FBFBFB;
+    border: none;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.pai2{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.sec2{
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.sec2 h1{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.sec2 p{
+    height: 10%;
+    font-family: 'Inter';
+    font-size: 1.2rem;
+}
+
+.sec2 a{
+    font-family: 'Inter';
+    font-size: 1rem;
+    color: #DA2535;
+}
+
+.div2{
+    
+} 
+
+.div2>img{
+    height: 400px;
 }
